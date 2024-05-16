@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <style>
+        div p{
+            background-color: orangered;
+        }
+        .one >p{
+            background-color: blue;
+        }
+        div +p{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1> combinators </h1>
+    <p> descrendant selectors<br>
+    child selectos <br>
+    adjacent selectors <br>
+    genral sibling selectors </p>
+    <div>
+        <p> this is descendant </p>
+        <p> jeevan sai reddy </p>
+        <p> jeevan sai reddy </p>
+    </div>
+    <p> jeevan </p>
+    <p> jeevan </p>
+    <div class="one">
+        <p> dev </p>
+        <p> dev </p>
+        <section>
+            <p> dev </p>
+            <p> dev </p>
+        </section>
+        <p> dev </p>
+    </div>
+    <p> jeevan </p>
+    <p> jeevan </p>
+    <div>
+        <p> adjcent sibling </p>
+        <p> jeevan </p>
+        <p> jeevan </p>
+
+    </div>
+    <p> krishna</p>
+    <p> krishna</p>
+    <div>
+        <p> adjacent </p>
+    </div>
+    <p> krishna </p>
+    <p> krishna </p>
+</body>
+</html>
