@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        div{
+            width: 200px;
+            height: 150px;
+            background-color: aqua;
+            background-image: repeating-linear-gradient;
+        }
+        #linear{
+            background-image: repeating-radial-gradient(circle, yellow 5%, pink 10%, blue 8%);
+        }
+        #conic{
+            background-image: conic-gradient( green 30deg ,violet 45deg, orange 90deg);
+        border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <h1> Gradients == the smooth transition between two or  ore specified colors </h1>
+    <p> linear gradients(top/bottom/up/left/diagonally) <br> radial gradient(definedby the gradients) </p>
+    <br>
+    <br>
+    <br>
+    <div id="linear">
+        linear
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="radial">
+        radial
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="conic">
+        conic
+    </div>
+</body>
+</html>
