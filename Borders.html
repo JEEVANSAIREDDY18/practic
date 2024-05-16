@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+</head>
+<body>
+    <style>
+        .margin{
+            border: 3px solid brown;
+            margin: 20px 40px 60px;
+            padding: 10px 20px 30px;
+            width: 300px;
+            height: 200px;
+        }
+        p{
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+        .one{
+            width: 200px;
+            height: 100px;
+            border: 3px solid yellow;
+            overflow:visible;
+        }
+        img{
+            float: left;
+        }
+        .three{
+            float: left;
+            padding: 10px;
+            border: 5px solid red;
+        }
+        .four{
+            padding: 20px;
+            border: 10px solid blue;
+        }
+        .five{
+            padding: 20px;
+            float: left;
+            border: 3px solid yellow;
+        }
+        .six{
+            padding: 10px;
+            border: 5px solid navy;
+        }
+    </style>
+    <h1> Borders </h1>
+    <p style="border-style:dotted; border-width: 5px; border-color: blue; "> Jeevan sai reddy</p>
+    <p style="border-style:dashed; border-width: 10px 15px 20px; border-color: blueviolet;"> Jeevan sai reddy</p>
+    <p style="border-style:solid; border-width: 10px 15px 20px; border-color:aqua rebeccapurple violet;"> Jeevan sai reddy</p>
+    <p style="border-style:double; border-width: 3px 5px 7px; border-color: pink indigo red;"> Jeevan sai reddy</p>
+    <p style="border-style:ridge; border-width: 4px 6px 8px; border-color: yellowgreen burlywood black;"> Jeevan sai reddy</p>
+    <p style="border-style:inset; border-width: 7px; border-color: brown;"> Jeevan sai reddy</p>
+    <p style="border-style:outset; border-width: 4px; border-color: orange;"> Jeevan sai reddy</p>
+    <p style="border-style:none; border-width: 3px 2px 1px; border-color: blue grey violet;"> Jeevan sai reddy</p>
+    <p style="border-style:hidden; border-width: 6px 4px 2px; border-color: pink maroon black;"> Jeevan sai reddy</p>
+    <p> top, right, left </p>
+    <h3> Margins </h3>
+    <p class="margin">margins are used to create a space and the margin property sets the margins for an element</p>
+<h3> overflow </h3>
+<div class="one">
+    the specific documents should be a provide a safe.
+</div>
+<h3> float and clear </h3>
+<p> float property specifies how an element should be float</p>
+<p> clear property specifies what an elements can float beside</p>
+<div class="two">
+    <p> <img src="data:image/jpeg;base64,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"</p>
+    React can can be used develop single-page,mobile
+</div>
+<div class="three"> clear </div>
+<div class="four"> React can can be used develop single-page,mobile </div>
+<br>
+<div class="five"> with clear </div>
+<div class="six"> React can can be used develop single-page,mobile </div>
+</html>
